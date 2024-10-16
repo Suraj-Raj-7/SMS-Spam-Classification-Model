@@ -1,4 +1,2 @@
 # SMS-Spam-Classification-Model
-This model predicts if a message is spam or ham.
-<br>
-It uses NLP and naive bayes classifier
+This project implements a simple SMS spam classifier using Python, employing natural language processing (NLP) techniques and a machine learning model.
