@@ -21,8 +21,6 @@ nltk.download('stopwords')
 # Load the dataset
 df = pd.read_csv('C:/Users/91906/Downloads/spam.csv', encoding='latin-1')
 
-
-
 # Preview the dataset
 df.head()
 
@@ -58,7 +56,6 @@ df['message'] = df['message'].apply(preprocess_text)
 
 # Check the first few processed messages
 df.head()
-
 
 #Step 4: Convert Text to Numerical Data
 # Split the dataset into features (X) and labels (y)
