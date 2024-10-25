@@ -100,6 +100,7 @@ def predict_message(message):
     # Return the prediction
     return 'Spam' if prediction == 1 else 'Ham'
 
+
 # Test the model with a sample message
 test_message1 = "XXXMobileMovieClub: To use your credit, click the WAP link in the next txt message or click here>> http://wap. xxxmobilemovieclub.com?n=QJKGIGHJJGCBL"
 test_message2 =  "Oh k...i'm watching here:)"
